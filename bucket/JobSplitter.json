@@ -7,7 +7,7 @@
     "homepage":"https://itoncek.space",
     "checkver": {
         "url": "https://cdn.itoncek.space/geosolve/versions.json",
-        "regex": "$.JobSplitter"
+        "jsonpath": "$.JobSplitter"
     },
     "autoupdate": {
         "url": "https://cdn.itoncek.space/geosolve/JobSplitter.zip"
