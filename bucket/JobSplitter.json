@@ -4,14 +4,12 @@
     "url": "https://cdn.itoncek.space/geosolve/JobSplitter.zip",
     "hash": "sha512:ba20913b4f175596a451c2ba181828890944165f01d658f57b077db6e1e86b5ab4d0596958eecbcbf5d9acd656c790bb6185d1051a285bec8bc8f23afde7a40b",
     "bin": "jobsplitter.exe",
-    "extract_dir": "jobsplitter-1.0.0.0",
     "homepage":"https://itoncek.space",
     "checkver": {
         "url": "https://cdn.itoncek.space/geosolve/versions.json",
         "regex": "$.JobSplitter"
     },
     "autoupdate": {
-        "url": "https://cdn.itoncek.space/geosolve/JobSplitter.zip",
-        "extract_dir": "nginx-$version"
+        "url": "https://cdn.itoncek.space/geosolve/JobSplitter.zip"
     }
 }
